@@ -22,12 +22,18 @@ hr {
 	margin: auto;
 	padding: 30px;
 	border-radius: 5px;
-	background-image: url(pjs1.jpg);
+	background-color: rgb(73, 68, 61);
+	opacity: 0.9;
 	color: white;
 }
 
 label {
-	font-size: 20px;
+	display: flex;
+	font-size: 30px;
+	
+}
+#first{
+	flex-direction: column;
 }
 
 .btn {
